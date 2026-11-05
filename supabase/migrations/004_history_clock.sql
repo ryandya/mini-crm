@@ -1,0 +1,1 @@
+alter table public.task_history alter column changed_at set default clock_timestamp();
